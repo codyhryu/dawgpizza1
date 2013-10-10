@@ -1,0 +1,98 @@
+/* Google web fonts 'Open Sans' (italic and normal) and 'Boogaloo' */
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:400italic,400,300,700);
+@import url(http://fonts.googleapis.com/css?family=Lily+Script+One);
+
+/* reset CSS file to reset browser default styling to a consistent starting point */
+@import url(reset.css);
+
+body {
+	font-family: 'Open Sans', sans-serif;
+	font-size: 18px;
+	padding: 10px;
+	background-image: url('../img/binding_dark.png');
+}
+
+.header {
+	overflow: hidden;
+	background-image: url('../img/cloth_alike.png');
+}
+
+.logo {
+	float: left;
+}
+
+.header-link {
+	display: block;
+	text-decoration: none;
+	color: purple;
+	padding-right: 50px;
+}
+
+h1 {
+	display: inline-block;
+	font-family: 'Lily Script One', cursive;
+	font-size: 100px;
+	line-height: 225px;
+	margin-left: 50px;
+}
+
+.container {
+	background-image: url('../img/linedpaper.png');
+	width: 920px;
+	margin: 0 auto;
+}
+
+nav {
+	background-color: black;
+	overflow: hidden;
+}
+
+nav a {
+	background-color: black;
+	transition: background-color 0.5s;
+}
+
+nav a:visited, nav a:link, nav a:hover {
+	float: left;
+	color: white;
+	text-decoration: none;
+	padding: 10px;
+}
+
+nav a:hover {
+	background-color: gray;
+}
+
+.page {
+	margin: 20px;
+	margin-right: 0px;
+	overflow: hidden;
+}
+
+h2 {
+	font-style: italic;
+}
+
+dl {
+	margin-top: 40px;
+	margin-bottom: 40px;
+}
+
+dt {
+	margin-bottom: 0.5em;
+}
+
+dd {
+	margin-left: 40px;
+	margin-bottom: 1em;
+	width: 85%;
+}
+
+.rightside {
+	float: right;
+	width: 400px;
+	margin-top: 60px;
+	margin-right: 15px;
+	box-shadow: 5px 5px 10px gray;
+	border: white solid 5px;
+}
